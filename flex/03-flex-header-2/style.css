@@ -19,6 +19,9 @@ body {
 
   /* set 8px gap between everything and edge of header*/
   padding: 8px;
+
+  /* set 16px gap between items*/
+  gap: 16px;
 }
 
 .profile-image {
@@ -52,4 +55,10 @@ a {
 
 ul {
   list-style-type: none;
+  
+  /*arranging items horizontally and setting gap*/
+  display: flex;
+  padding: 0;
+  gap: 16px;
+
 }
