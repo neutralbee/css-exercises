@@ -45,6 +45,10 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  
+  /* arranges right-items to right side */
+  display: flex;
+  margin-left: auto;
 }
 
 a {
@@ -62,10 +66,9 @@ ul {
   gap: 16px;
 }
 
- /* arranges items to the right side of header and set gap */
+ /* sets gap between items */
  .right-item{
   display: flex;
   gap: 16px;
-  margin-left: auto;
 }
 
