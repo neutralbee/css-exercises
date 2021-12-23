@@ -20,8 +20,11 @@ body {
   /* set 8px gap between everything and edge of header*/
   padding: 8px;
 
-  /* set 16px gap between items*/
-  gap: 16px;
+  /* set 16px gap between items (not needed as gap will be set else where)
+  gap: 16px; */
+
+  /* (separates the left and right items) */
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -46,9 +49,9 @@ button {
   color: white;
   padding: 8px 24px;
   
-  /* arranges right-items to right side */
+  /* arranges right-items to right side (not needed as items now share same class)
   display: flex;
-  margin-left: auto;
+  margin-left: auto; */
 }
 
 a {
@@ -64,11 +67,19 @@ ul {
   display: flex;
   padding: 0;
   gap: 16px;
+  
+  /* ensures margin doesn't affect gap*/
+  margin: 0;
 }
 
- /* sets gap between items */
+.left, .right{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+ /* sets gap between items (too specific)
  .right-item{
   display: flex;
   gap: 16px;
 }
-
+*/
