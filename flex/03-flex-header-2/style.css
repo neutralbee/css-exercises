@@ -55,10 +55,17 @@ a {
 
 ul {
   list-style-type: none;
-  
-  /*arranging items horizontally and setting gap*/
+
+  /* arranging items horizontally and setting gap */
   display: flex;
   padding: 0;
   gap: 16px;
-
 }
+
+ /* arranges items to the right side of header and set gap */
+ .right-item{
+  display: flex;
+  gap: 16px;
+  margin-left: auto;
+}
+
