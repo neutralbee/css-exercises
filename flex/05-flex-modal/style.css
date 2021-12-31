@@ -23,7 +23,6 @@ body {
 
   padding: 10px;
   display:flex;
-  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -51,8 +50,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  margin-left: auto;
 }
 
 button {
@@ -81,7 +78,6 @@ button.cancel {
 
 .content {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   flex: 1;
   gap: 10px;
